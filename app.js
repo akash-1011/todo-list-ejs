@@ -144,7 +144,7 @@ app.get("/about", function(req, res){
 });
 
 let post = process.env.PORT;
-if(port == null || post == ""){
+if(port === null || post === ""){
   port = 3000;
 }
 
